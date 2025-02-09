@@ -19,7 +19,11 @@ def quicksort(A,low,high):
         quicksort(A,pi+1,high)
 
 
-A=[8,17,22,12,0,9,16]
+Array_size=int(input("enter size of the array: "))
+A=[]
+for i in range(Array_size):
+    inp = int(input("Enter Element: "))
+    A.append(inp)
 print("Unsorted Array: ")
 print(A)
 
